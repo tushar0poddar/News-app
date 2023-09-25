@@ -1,15 +1,18 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
-
   return (
     <div>
       <div className="page-wrapper">
         <div className="nav-wrapper">
-          <nav className="navbar">
+          <nav className="navbar ">
             <img src="news-logo.svg" alt="/" width="75px" height="46px" />
-            <div className="menu-toggle" id="mobile-menu">
+            <div
+              className="menu-toggle"
+              id="mobile-menu"
+              data-bs-toggle="collapse"
+            >
               <span className="bar"></span>
               <span className="bar"></span>
               <span className="bar"></span>
